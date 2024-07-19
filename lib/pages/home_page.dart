@@ -21,7 +21,7 @@ class _HomePageState extends State<HomePage> {
   ChatUser currentUser = ChatUser(id: "0", firstName: "User");
   ChatUser geminiUser = ChatUser(
     id: "1",
-    firstName: "Terapistiniz",
+    firstName: "Your Therapist",
     profileImage:
         "https://seeklogo.com/images/G/google-gemini-logo-A5787B2669-seeklogo.com.png",
   );
@@ -31,7 +31,7 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         centerTitle: true,
         title: const Text(
-          "Terapist Chat",
+          "Therapist Chat",
         ),
       ),
       body: _buildUI(),
