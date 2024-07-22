@@ -38,6 +38,8 @@ dependencies:
   flutter_gemini: ^2.0.3
   image_picker: ^1.0.7
   dash_chat_2: ^0.0.20
+  flutter_bloc: ^8.1.6
+  firebase_auth: ^4.16.0
 
 dev_dependencies:
   flutter_test:
